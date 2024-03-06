@@ -149,6 +149,7 @@
     text-align: right;
     display: flex;
     justify-content: right;
+    z-index: 1;
     /* margin: 1vh; */
   }
 
