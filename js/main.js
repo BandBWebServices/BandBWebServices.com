@@ -17,8 +17,10 @@ function hamburger() {
     iconImg = document.getElementById("iconimg");
     navul = document.getElementById("navulmobile");
     navdiv = document.getElementById("navdivmobile");
+    main = document.getElementById("main");
 
     navdiv.className = "navdivmobileadded";
+    main.className = "mainadded";
     // navul.className = "navulmobileadded";
 
     iconImg.setAttribute("src", "/images/icons/x.png");
@@ -65,6 +67,7 @@ function exit() {
 
     // navul.className = "navulmobileexit";
     navdiv.className = "navdivmobileexit";
+    main.className = "main";
 
     iconImg.setAttribute("src", "/images/icons/ham.png");
     hamBtn.setAttribute("onclick", "hamburger()");
