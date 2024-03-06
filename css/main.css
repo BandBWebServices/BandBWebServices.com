@@ -63,6 +63,7 @@
     padding-bottom: 2vh;
     display: flex;
     flex-direction: row-reverse;
+    z-index: 2;
   }
 
   .navulmobile {
@@ -162,6 +163,7 @@
     width: 20px;
     height: 20px;
     padding: 2vh;
+    z-index: 1;
   }
 
   form {
