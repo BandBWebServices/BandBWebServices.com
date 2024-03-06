@@ -74,6 +74,7 @@
   .navdivmobile {
     background-color: rgba(0, 35, 51, 1);
     transform: translateX(100%);
+    z-index: -1;
   }
 
   /* .navulmobileadded {
@@ -151,6 +152,7 @@
     text-align: right;
     display: flex;
     justify-content: right;
+    z-index: 2;
     /* margin: 1vh; */
   }
 
@@ -165,6 +167,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    z-index: 1;
   } 
 }
 
