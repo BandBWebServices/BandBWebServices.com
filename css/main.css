@@ -63,7 +63,7 @@
     padding-bottom: 2vh;
     display: flex;
     flex-direction: row-reverse;
-    z-index: 1;
+    z-index: 10;
   }
 
   .navulmobile {
@@ -76,7 +76,7 @@
   .navdivmobile {
     background-color: rgba(0, 35, 51, 1);
     transform: translateX(100%);
-    z-index: -1;
+    z-index: -10;
   }
 
   /* .navulmobileadded {
@@ -155,7 +155,7 @@
     text-align: right;
     display: flex;
     justify-content: right;
-    z-index: 1;
+    z-index: 10;
     /* margin: 1vh; */
   }
 
@@ -163,7 +163,7 @@
     width: 20px;
     height: 20px;
     padding: 2vh;
-    z-index: 1;
+    z-index: 10;
   }
 
   form {
