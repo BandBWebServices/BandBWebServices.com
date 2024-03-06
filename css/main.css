@@ -109,7 +109,6 @@
 
   #main {
     margin-top: 75px;
-    z-index: 1;
   }
 
   .navamobilelogo {
@@ -164,6 +163,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    z-index: 1;
   } 
 }
 
