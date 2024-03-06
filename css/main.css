@@ -156,7 +156,11 @@
     height: 20px;
     padding: 2vh;
   }
-  
+
+  form {
+    display: flex;
+    justify-content: center;
+  } 
 }
 
 
