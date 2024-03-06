@@ -106,8 +106,12 @@
     padding: 1vh;
   }
 
-  #main {
+  .main {
     margin-top: 75px;
+  }
+
+  .mainadded {
+    margin-top: 240px;
   }
 
   .navamobilelogo {
