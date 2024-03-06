@@ -85,7 +85,7 @@
   } */
 
   .navdivmobileadded {
-    animation: navulmobile 1.5s forwards;
+    animation: navulmobile 1s forwards;
     background-color: rgba(0, 35, 51, 1);
   }
 
@@ -97,7 +97,7 @@
   } */
 
   .navdivmobileexit {
-    animation: navulmobileexit 1.5s forwards;
+    animation: navulmobileexit 1s forwards;
     background-color: rgba(0, 35, 51, 1);
   }
 
