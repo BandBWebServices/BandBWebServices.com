@@ -20,7 +20,7 @@ function hamburger() {
     main = document.getElementById("main");
 
     navdiv.className = "navdivmobileadded";
-    main.className = "mainadded";
+    //main.className = "mainadded";
     // navul.className = "navulmobileadded";
 
     iconImg.setAttribute("src", "/images/icons/x.png");
@@ -67,7 +67,7 @@ function exit() {
 
     // navul.className = "navulmobileexit";
     navdiv.className = "navdivmobileexit";
-    main.className = "main";
+    //main.className = "main";
 
     iconImg.setAttribute("src", "/images/icons/ham.png");
     hamBtn.setAttribute("onclick", "hamburger()");
