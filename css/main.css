@@ -63,7 +63,7 @@
     padding-bottom: 2vh;
     display: flex;
     flex-direction: row-reverse;
-    z-index: 2;
+    z-index: 1;
   }
 
   .navulmobile {
@@ -111,7 +111,7 @@
 
   #main {
     margin-top: 75px;
-    z-index: 2;
+    z-index: 0;
   }
 
   .mainadded {
@@ -171,7 +171,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    z-index: 2;
+    z-index: 0;
   } 
 }
 
