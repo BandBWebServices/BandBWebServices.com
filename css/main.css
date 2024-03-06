@@ -52,7 +52,6 @@
 
   .navmobile {
     /* background-color: grey; */
-    z-index: -1;
     position: absolute;
     width: 100%;
   }
@@ -148,7 +147,6 @@
     text-align: right;
     display: flex;
     justify-content: right;
-    z-index: 2;
     /* margin: 1vh; */
   }
 
@@ -163,7 +161,6 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    z-index: 1;
   } 
 }
 
