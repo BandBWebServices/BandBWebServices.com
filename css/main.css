@@ -1,3 +1,45 @@
+/* Keyframes */
+
+@keyframes nava {
+
+  0% {
+    color: #ffffff;
+  }
+
+  100% {
+    color: #159a9c;
+  }
+
+}
+
+
+@keyframes navulmobile {
+
+  0% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
+@keyframes navulmobileexit {
+
+  0% {
+    transform: translateX(0%)
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+
+}
+
+
+
+
 /* Mobile */
 
 @media only screen and (max-width: 600px) {
@@ -6,8 +48,117 @@
     margin: 0px;
     padding: 0px;
   }
+
+  .navmobile {
+    /* background-color: grey; */
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+  }
+
+  .navdivbtnmobile {
+    background-color: #002333;
+    height: 5vh;
+    padding-bottom: 2vh;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .navulmobile {
+    display: flex;
+    flex-direction: column;
+    /* background-color: grey; */
+    /* transform: translateX(100%); */
+  }
+
+  .navdivmobile {
+    background-color: rgba(0, 35, 51, 1);
+    transform: translateX(100%);
+  }
+
+  /* .navulmobileadded {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    animation: navulmobile 2s forwards;
+  } */
+
+  .navdivmobileadded {
+    animation: navulmobile 1.5s forwards;
+    background-color: rgba(0, 35, 51, 1);
+  }
+
+  /* .navulmobileexit {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    animation: navulmobileexit 2s forwards;
+  } */
+
+  .navdivmobileexit {
+    animation: navulmobileexit 1.5s forwards;
+    background-color: rgba(0, 35, 51, 1);
+  }
+
+  .navamobile {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1vh;
+  }
+
+  #main {
+    margin-top: 75px;
+  }
+
+  .navamobilelogo {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1vh;
+    text-align: right;
+  }
+
+  .navdesktop {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  .navadesktop {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  .navlidesktop {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  #ham {
+    background: none;
+    border: none;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    /* margin: 1vh; */
+  }
+
+  #iconimg {
+    width: 20px;
+    height: 20px;
+    padding: 2vh;
+  }
   
 }
+
+
 
 
 /* Desktop */
@@ -17,6 +168,57 @@
   * {
     margin: 0px;
     padding: 0px;
+  }
+
+  .navdesktop {
+    background-color: #002333;
+  }
+
+  .navuldesktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navadesktop {
+    text-decoration: none;
+    padding: 2.5vh;
+    margin: 2.5vh;
+  }
+
+  .navlidesktop:hover {
+      animation: nava 0.5s forwards;
+  }
+
+  .navlidesktop {
+    color: #ffffff;
+  }
+
+  .navlidesktop {
+    list-style-type: none;
+  }
+
+  .navmobile {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  .navamobile {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+  }
+
+  .navlimobile {
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
   }
   
 }
