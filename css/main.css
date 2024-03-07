@@ -37,6 +37,18 @@
 
 }
 
+@keyframes boxshadow {
+
+  0% {
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  100% {
+    box-shadow: 0px 0px 5px grey;
+  }
+
+}
+
 
 
 
@@ -52,6 +64,7 @@
 
   .navmobile {
     /* background-color: grey; */
+    z-index: 1;
     position: absolute;
     width: 100%;
   }
@@ -84,7 +97,7 @@
   } */
 
   .navdivmobileadded {
-    animation: navulmobile 1s forwards;
+    animation: navulmobile 1.5s forwards;
     background-color: rgba(0, 35, 51, 1);
   }
 
@@ -96,7 +109,7 @@
   } */
 
   .navdivmobileexit {
-    animation: navulmobileexit 1s forwards;
+    animation: navulmobileexit 1.5s forwards;
     background-color: rgba(0, 35, 51, 1);
   }
 
@@ -108,10 +121,6 @@
 
   #main {
     margin-top: 75px;
-  }
-
-  .mainadded {
-    margin-top: 240px;
   }
 
   .navamobilelogo {
@@ -160,13 +169,45 @@
     padding: 2vh;
   }
 
-  form {
+  #container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+  }
+
+  .examplesimages {
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    /* padding-left: 2.5vh; */
+  }
+
+  .webDiv {
+    /* border: 2px solid black; */
+    /* margin: 5vh; */
+    /* width: 35vh; */
+    /* height: 45vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .namep {
     text-align: center;
-    margin-top: 85px;
-  } 
+  }
+
+  .alink {
+    border: 2px solid black;
+    margin: 5vh;
+    width: 35vh;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  
 }
 
 
@@ -231,6 +272,49 @@
     padding: 0px;
     width: 0px;
     height: 0px;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .examplesimages {
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    /* padding-left: 2.5vh; */
+  }
+
+  .webDiv {
+    /* border: 2px solid black; */
+    /* margin: 5vh; */
+    /* width: 35vh; */
+    /* height: 45vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .namep {
+    text-align: center;
+  }
+
+  .alink {
+    border: 2px solid black;
+    margin: 5vh;
+    width: 35vh;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .alink:hover {
+    animation: boxshadow 0.5s forwards;
   }
   
 }
