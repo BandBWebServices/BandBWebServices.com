@@ -40,6 +40,7 @@ let containerDiv = document.getElementById("container");
 
     namep.textContent = Name.name;
     alink.setAttribute("href", Name.link);
+    alink.setAttribute("target", "_blank");
     img.setAttribute("src", Name.image);
 
     alink.className = "alink";
