@@ -5,7 +5,7 @@ let examplesArray = [
         "text1":"1-2",
         "text2":"No",
         "text3":"No",
-        "text4":"",
+        "text4":"0",
     },
     {
         "name":"$199.99",
@@ -13,7 +13,7 @@ let examplesArray = [
         "text1":"3-6",
         "text2":"Yes",
         "text3":"Yes",
-        "text4":"",
+        "text4":"2",
     },
     {
         "name":"$399.99",
@@ -21,7 +21,7 @@ let examplesArray = [
         "text1":"6+",
         "text2":"Yes",
         "text3":"Yes",
-        "text4":"",
+        "text4":"5",
     },
 ];
 
@@ -46,7 +46,7 @@ let containerDiv = document.getElementById("container");
     text1.textContent = "Web pages: " + Name.text1;
     text2.textContent = "Contact Form: " + Name.text2;
     text3.textContent = "API Integration: " + Name.text3;
-    text4.textContent = "Something: " + Name.text4;
+    text4.textContent = "Revisions: " + Name.text4;
 
     alink.className = "pricep";
     webDiv.className = "webDivprice";
