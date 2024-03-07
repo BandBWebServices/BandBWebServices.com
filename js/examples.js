@@ -2,7 +2,7 @@ let examplesArray = [
     {
         "name":"Retail Store",
         "image":"/images/examples/webnotfound.jpg",
-        "link":"/html/examples/retail.html",
+        "link":"https://retail-example.netlify.app/",
     },
     {
         "name":"Restaurant",
