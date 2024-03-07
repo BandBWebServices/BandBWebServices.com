@@ -207,6 +207,25 @@
     text-decoration: none;
     color: black;
   }
+
+  .pricep {
+    
+  }
+
+  .webDivprice {
+    border: 2px solid black;
+    margin: 5vh;
+    width: 35vh;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+    /* font-size: 5rem; */
+  }
   
 }
 
@@ -315,6 +334,25 @@
 
   .alink:hover {
     animation: boxshadow 0.5s forwards;
+  }
+
+  .pricep {
+    
+  }
+
+  .webDivprice {
+    border: 2px solid black;
+    margin: 5vh;
+    width: 35vh;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+    /* font-size: 5rem; */
   }
   
 }
