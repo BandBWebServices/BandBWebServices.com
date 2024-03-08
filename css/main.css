@@ -154,6 +154,10 @@
     height: 0px;
   }
 
+  .logo {
+    width: 32px;
+  }
+
   #ham {
     background: none;
     border: none;
