@@ -159,10 +159,6 @@
 
   .logo {
     width: 32px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    white-space: nowrap;
-    position: sticky;
   }
 
   #ham {
