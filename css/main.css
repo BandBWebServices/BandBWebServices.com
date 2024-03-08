@@ -389,5 +389,10 @@
     text-align: center;
     width: 100%;
   }
+
+  .formdivmain {
+    width: 100%;
+    text-align: center;
+  }
   
 }
