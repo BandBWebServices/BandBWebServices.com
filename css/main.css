@@ -259,7 +259,7 @@
     display: flex;
     justify-content: center;
     justify-self: center;
-    margin-bottom: 50vh;
+    margin-bottom: 25vh;
   }
 
   .mainindex {
@@ -270,8 +270,12 @@
     text-align: center;
   }
 
-  .mainindex1 {
-    
+  .indexmain1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 25vh;
   }
 
   .mainh3 {
