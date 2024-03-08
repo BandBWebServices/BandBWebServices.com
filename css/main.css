@@ -159,6 +159,7 @@
     overflow-y: hidden;
     overflow-x: hidden;
     white-space: nowrap;
+    position: sticky;
   }
 
   #ham {
