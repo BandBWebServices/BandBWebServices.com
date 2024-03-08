@@ -259,6 +259,7 @@
     display: flex;
     justify-content: center;
     justify-self: center;
+    margin-bottom: 50vh;
   }
 
   .mainindex {
@@ -267,7 +268,6 @@
     justify-self: center;
     flex-direction: column;
     text-align: center;
-    height: 75vh;
   }
 
   .mainindex1 {
