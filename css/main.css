@@ -156,6 +156,7 @@
 
   .logo {
     width: 32px;
+    overflow-y: hidden;
   }
 
   #ham {
