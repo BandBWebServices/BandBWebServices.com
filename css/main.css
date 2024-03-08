@@ -380,9 +380,17 @@
     display: flex;
     flex-direction: column;
     background-color: #002333;
-    width: 350px;
+    width: 500px;
 /*     width: 100%; */
     color: white;
+  }
+
+  .formbtn {
+    cursor: pointer;
+  }
+
+  .forminput {
+    margin: 3vh;
   }
 
   .formdiv {
