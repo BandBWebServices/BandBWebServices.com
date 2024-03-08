@@ -408,6 +408,8 @@
     padding-right: 2.5vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    margin: 5vh;
+    border-radius: 25px;
   }
 
   .forminput {
