@@ -283,6 +283,34 @@
     margin-top: 3vh;
     width: 40vh;
   }
+
+  .formbtn {
+    background-color: #159A9C;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: 5vh;
+    border-radius: 25px;
+  }
+
+  .forminput {
+    margin: 3vh;
+  }
+
+  .formdiv {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .formdivmain {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
   
 }
 
