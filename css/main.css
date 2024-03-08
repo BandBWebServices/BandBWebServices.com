@@ -395,6 +395,7 @@
     width: 500px;
 /*     width: 100%; */
     color: white;
+    margin-top: 10vh;
   }
 
   .formbtn:hover {
