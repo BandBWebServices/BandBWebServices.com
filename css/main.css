@@ -267,6 +267,11 @@
     justify-self: center;
     flex-direction: column;
     text-align: center;
+    height: 75vh;
+  }
+
+  .mainindex1 {
+    
   }
 
   .mainh3 {
