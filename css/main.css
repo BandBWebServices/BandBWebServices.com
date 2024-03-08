@@ -228,9 +228,10 @@
   }
 
   #form {
-    margin-top: 20vh;
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     border: 2px solid #159A9C;
   }
   
