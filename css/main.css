@@ -528,5 +528,37 @@
     margin-top: 3vh;
     width: 80vh;
   }
+
+  .indexmain {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 20vh;
+  }
+
+  .mainindex {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .indexmain1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+    background-color: #B4BEC9;
+  }
+
+  .mainh3 {
+    text-align: center;
+    margin-top: 10vh;
+    color: #159A9C;
+  }
   
 }
