@@ -381,10 +381,12 @@
     flex-direction: column;
     background-color: #002333;
     width: 350px;
+    width: 100%;
   }
 
   .formdiv {
     text-align: center;
+    width: 100%;
   }
   
 }
