@@ -155,9 +155,10 @@
   }
 
   .logo {
-    width: 25px;
+    width: 32px;
     overflow-y: hidden;
-    display: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
   }
 
   #ham {
