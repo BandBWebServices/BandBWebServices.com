@@ -385,7 +385,7 @@
     color: white;
   }
 
-  .formbtn {
+  .formbtn:hover {
     cursor: pointer;
   }
 
