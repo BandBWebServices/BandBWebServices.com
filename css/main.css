@@ -388,11 +388,15 @@
   .formdiv {
     text-align: center;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .formdivmain {
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
   
 }
