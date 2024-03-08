@@ -373,5 +373,13 @@
     box-shadow: 5px 5px 5px grey;
     /* font-size: 5rem; */
   }
+
+  #form {
+    border: 2px solid #159A9C;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #002333;
+  }
   
 }
