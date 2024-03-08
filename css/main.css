@@ -12,6 +12,18 @@
 
 }
 
+@keyframes submit {
+
+  0% {
+    background-color: #159A9C;
+  }
+
+  100% {
+    background-color: #DEEFE7;
+  }
+  
+}
+
 
 @keyframes navulmobile {
 
@@ -387,6 +399,15 @@
 
   .formbtn:hover {
     cursor: pointer;
+    animation: submit 0.5s forwards;
+  }
+
+  .formbtn {
+    background-color: #159A9C;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
   }
 
   .forminput {
