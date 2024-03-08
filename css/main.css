@@ -284,6 +284,10 @@
     list-style-type: none;
   }
 
+  .logo {
+    width: 32px;
+  }
+
   .navmobile {
     visibility: hidden;
     margin: 0px;
