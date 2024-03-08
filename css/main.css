@@ -75,6 +75,7 @@
     padding-bottom: 2vh;
     display: flex;
     flex-direction: row-reverse;
+    overflow-y: hidden;
   }
 
   .navulmobile {
@@ -117,6 +118,7 @@
     text-decoration: none;
     color: #ffffff;
     padding: 1vh;
+    overflow-y: hidden;
   }
 
   #main {
@@ -128,6 +130,7 @@
     color: #ffffff;
     padding: 1vh;
     text-align: right;
+    overflow-y: hidden;
   }
 
   .navdesktop {
