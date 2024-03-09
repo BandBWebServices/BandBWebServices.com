@@ -3,11 +3,11 @@
 @keyframes bg {
 
   to {
-    background-position: 20% 0;
+    background-position: 100% 0;
   }
 
   from {
-    background-position: 40% 0;
+    background-position: 60% 0;
   }
   
 }
