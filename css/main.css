@@ -3,11 +3,11 @@
 @keyframes bg {
 
   to {
-    background-position: 0 0;
+    background-position: 60% 0;
   }
 
   from {
-    background-position: 60% 0;
+    background-position: 0% 0;
   }
   
 }
@@ -146,7 +146,7 @@
   }
 
   #main {
-    margin-top: 60px;
+    margin-top: 55px;
     background-image: url("/images/bgs/bg2.png");
     background-repeat: no-repeat;
     animation: bg 1s forwards;
