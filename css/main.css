@@ -7,7 +7,7 @@
   }
 
   100% {
-    background-position: 100% 0;
+    background-position: 70% 0;
   }
   
 }
@@ -149,7 +149,8 @@
     margin-top: 70px;
     background-image: url("/images/bgs/bg3-1.gif");
     background-repeat: no-repeat;
-    animation: bg 1s infinite;
+    animation: bg 1s;
+    animation-iteration-count: 1;
   }
 
   .bgvideo {
