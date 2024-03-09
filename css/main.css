@@ -1,5 +1,17 @@
 /* Keyframes */
 
+@keyframes bg {
+
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+  
+}
+
 @keyframes nava {
 
   0% {
@@ -135,8 +147,9 @@
 
   #main {
     margin-top: 70px;
-   /* background-image: url("/images/bgs/bg3-1.gif");*/
+    background-image: url("/images/bgs/bg3-1.gif");
     background-repeat: no-repeat;
+    animation: bg 1s forwards;
   }
 
   .bgvideo {
