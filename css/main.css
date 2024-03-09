@@ -149,9 +149,9 @@
     margin-top: 55px;
     background-image: url("/images/bgs/bg2.png");
     background-repeat: no-repeat;
-    animation: bg 1s forwards;
+    animation: bg 1.5s forwards;
     animation-iteration-count: 1;
-    background-size: fit;
+    background-size: cover;
   }
 
   .bgvideo {
