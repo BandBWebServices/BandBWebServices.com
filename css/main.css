@@ -314,6 +314,7 @@
     text-align: center;
     margin-top: 10vh;
     color: #002333;
+    -webkit-text-stroke: 1px white;
   }
 
   .mainp {
