@@ -151,7 +151,7 @@
     background-repeat: no-repeat;
     animation: bg 1.5s forwards;
     animation-iteration-count: 1;
-    background-size: cover;
+    background-size: 50%;
   }
 
   .bgvideo {
