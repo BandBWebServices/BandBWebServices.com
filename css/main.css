@@ -154,6 +154,13 @@
     background-size: 150%;
   }
 
+  #main1 {
+    margin-top: 55px;
+    background-image: url("/images/bgs/bg4.png");
+    background-repeat: no-repeat;
+    background-size: 150%;
+  }
+
   .bgvideo {
     
     position: absolute;
