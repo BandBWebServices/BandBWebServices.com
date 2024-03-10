@@ -414,6 +414,11 @@
 
   .navlidesktop {
     list-style-type: none;
+    /*background-color: #B4BEC9;*/
+  }
+
+  .navlidesktop1 {
+    list-style-type: none;
     background-color: #B4BEC9;
   }
 
