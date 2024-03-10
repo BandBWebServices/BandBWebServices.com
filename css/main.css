@@ -198,7 +198,10 @@
   }
 
   .logo {
-    width: 25px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
   }
 
   #ham {
