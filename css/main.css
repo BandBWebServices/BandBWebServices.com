@@ -288,6 +288,10 @@
     border: 2px solid #159A9C;
   }
 
+  .h2form {
+    margin-top: 1vh;
+  }
+
   .indexmain {
     text-align: center;
     display: flex;
