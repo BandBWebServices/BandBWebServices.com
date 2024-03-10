@@ -590,5 +590,12 @@
     margin-top: 3vh;
     width: 80vh;
   }
+
+  .mainfooter {
+    background-color: #002333;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
   
 }
