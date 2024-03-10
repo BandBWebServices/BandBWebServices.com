@@ -94,7 +94,7 @@
   }
 
   .navdivbtnmobile {
-    background-color: #002333;
+    background-color: #159A9C;
     height: 5vh;
     padding-bottom: 2vh;
     display: flex;
@@ -198,7 +198,7 @@
   }
 
   .logo {
-    width: 32px;
+    width: 100px;
   }
 
   #ham {
