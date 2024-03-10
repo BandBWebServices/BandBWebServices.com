@@ -258,7 +258,6 @@
   }
 
   .alink {
-    border: 2px solid black;
     margin: 5vh;
     width: 35vh;
     height: 45vh;
@@ -268,6 +267,7 @@
     text-decoration: none;
     color: black;
     background-color: white;
+    border-radius: 25px;
   }
 
   .pricep {
