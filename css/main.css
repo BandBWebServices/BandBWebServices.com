@@ -562,6 +562,13 @@
     justify-self: center;
   }
 
+  .indexmain1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+  }
+
   .mainindex {
     display: flex;
     justify-content: center;
