@@ -168,7 +168,7 @@
   .navamobilelogo {
     text-decoration: none;
     color: #ffffff;
-    padding: 1vh;
+    padding-bottom: 1vh;
     text-align: right;
     overflow-y: hidden;
     display: flex;
