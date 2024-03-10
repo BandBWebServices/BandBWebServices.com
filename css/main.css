@@ -501,6 +501,11 @@
     text-align: center;
   }
 
+  #main {
+    background-image: url("/images/bgs/bgdesk.png");
+    background-repeat: no-repeat;
+  }
+
   .webDivprice {
     border: 2px solid black;
     margin: 5vh;
