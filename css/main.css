@@ -169,6 +169,7 @@
     text-decoration: none;
     color: #ffffff;
     padding-bottom: 2vh;
+    height: 100px;
     text-align: right;
     overflow-y: hidden;
     display: flex;
