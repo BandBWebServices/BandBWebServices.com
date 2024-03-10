@@ -491,6 +491,10 @@
     
   }
 
+  .stepsul {
+    text-align: center;
+  }
+
   .webDivprice {
     border: 2px solid black;
     margin: 5vh;
