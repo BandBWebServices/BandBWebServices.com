@@ -513,6 +513,7 @@
   #main {
     background-image: url("/images/bgs/bgdesk.png");
     background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .webDivprice {
