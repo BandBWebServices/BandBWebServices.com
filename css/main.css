@@ -171,6 +171,8 @@
     padding: 1vh;
     text-align: right;
     overflow-y: hidden;
+    display: flex;
+    justify-content: center;
   }
 
   .navdesktop {
