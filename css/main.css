@@ -361,6 +361,13 @@
     display: flex;
     justify-content: center;
   }
+
+  .mainfooter {
+    background-color: #002333;
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
   
 }
 
