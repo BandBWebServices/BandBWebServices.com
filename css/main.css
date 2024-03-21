@@ -302,6 +302,13 @@
     border: 2px solid #159A9C;
   }
 
+  .formp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
   .h2form {
     margin-top: 1vh;
   }
