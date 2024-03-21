@@ -75,6 +75,15 @@
 
 
 
+/* Fonts */
+
+@font-face {
+font-family: "opensauce";
+src: url("/media/fonts/opensauce.ttf");
+}
+
+
+
 
 /* Mobile */
 
@@ -112,6 +121,10 @@
   .navdivmobile {
     background-color: rgba(0, 35, 51, 1);
     transform: translateX(100%);
+  }
+
+  h1 {
+    font-family: 'opensauce', Arial;
   }
 
   /* .navulmobileadded {
