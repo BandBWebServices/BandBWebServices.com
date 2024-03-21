@@ -23,6 +23,14 @@ let examplesArray = [
         "text3":"Yes",
         "text4":"5",
     },
+    {
+        "name":"Free Quote",
+        "price":"Custom",
+        "text1":"Custom",
+        "text2":"Yes",
+        "text3":"Yes",
+        "text4":"Custom",
+    },
 ];
 
 let containerDiv = document.getElementById("container");
