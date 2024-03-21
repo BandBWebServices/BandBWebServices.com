@@ -1,6 +1,6 @@
 let examplesArray = [
     {
-        "name":"$99.99",
+        "name":"$49.99",
         "price":"Tier 1",
         "text1":"1-2",
         "text2":"No",
@@ -8,7 +8,7 @@ let examplesArray = [
         "text4":"0",
     },
     {
-        "name":"$199.99",
+        "name":"$99.99",
         "price":"Tier 2",
         "text1":"3-6",
         "text2":"Yes",
@@ -16,7 +16,7 @@ let examplesArray = [
         "text4":"2",
     },
     {
-        "name":"$399.99",
+        "name":"$149.99",
         "price":"Tier 3",
         "text1":"6+",
         "text2":"Yes",
