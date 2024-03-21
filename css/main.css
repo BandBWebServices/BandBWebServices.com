@@ -290,7 +290,12 @@
   }
 
   #form {
-    margin: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    background-color: #ffffff;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
