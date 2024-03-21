@@ -292,8 +292,8 @@
   #form {
     margin-top: 5vh;
     margin-bottom: 5vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
     background-color: #ffffff;
     border-radius: 25px;
     display: flex;
@@ -371,7 +371,9 @@
   }
 
   .forminput {
-    margin: 3vh;
+    margin: 1vh;
+    margin-bottom: 4vh;
+    
   }
 
   .formdiv {
