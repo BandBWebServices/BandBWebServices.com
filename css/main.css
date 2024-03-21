@@ -127,6 +127,10 @@ src: url("/media/fonts/opensauce.ttf");
     font-family: 'opensauce', Arial;
   }
 
+  h2 {
+    font-family: 'opensauce', Arial;
+  }
+
   /* .navulmobileadded {
     display: flex;
     flex-direction: column;
