@@ -290,7 +290,7 @@
   }
 
   #form {
-    margin-top: 10vh;
+    margin: 10vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
