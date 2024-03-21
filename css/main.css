@@ -131,6 +131,10 @@ src: url("/media/fonts/opensauce.ttf");
     font-family: 'opensauce', Arial;
   }
 
+  h3 {
+    font-family: 'opensauce', Arial;
+  }
+
   /* .navulmobileadded {
     display: flex;
     flex-direction: column;
@@ -303,6 +307,8 @@ src: url("/media/fonts/opensauce.ttf");
     text-align: center;
     color: black;
     box-shadow: 5px 5px 5px grey;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.8);
     /* font-size: 5rem; */
   }
 
