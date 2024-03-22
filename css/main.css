@@ -416,7 +416,8 @@ src: url("/media/fonts/opensauce.ttf");
 
   .dnBtn {
     position: fixed;
-    float: bottom;
+    bottom: 0;
+    right: 0;
     width: 100px;
   }
 
