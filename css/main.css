@@ -187,8 +187,7 @@ src: url("/media/fonts/opensauce.ttf");
   .subeulali {
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: lower-alpha;
-    display: flex;
-    justify-content: center;
+    display: inline;
   }
 
   /* .navulmobileadded {
