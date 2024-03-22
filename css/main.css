@@ -166,7 +166,7 @@ src: url("/media/fonts/opensauce.ttf");
     overflow-y: hidden;
   }
 
-  .main {
+  #main {
     margin-top: 55px;
     background-image: url("/images/bgs/bg4.png");
     background-repeat: no-repeat;
