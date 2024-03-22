@@ -182,12 +182,12 @@ src: url("/media/fonts/opensauce.ttf");
 
   .eulali {
     font-family: Arial, Helvetica, sans-serif;
-    list-style-type: disc;
+    list-style-type: upper-roman;
   }
 
   .subeulali {
     font-family: Arial, Helvetica, sans-serif;
-    list-style-type: disc;
+    list-style-type: lower-alpha;
   }
 
   /* .navulmobileadded {
