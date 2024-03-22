@@ -414,6 +414,12 @@ src: url("/media/fonts/opensauce.ttf");
     justify-content: center;
   }
 
+  .dnBtn {
+    position: fixed;
+    float: left;
+    width: 100px;
+  }
+
   .mainfooter {
     background-color: #002333;
     width: 100%;
