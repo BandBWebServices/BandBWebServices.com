@@ -5,7 +5,7 @@ let examplesArray = [
         "text1":"1-2",
         "text2":"No",
         "text3":"No",
-        "text4":"0",
+        "text4":"2",
     },
     {
         "name":"$99.99",
@@ -13,7 +13,7 @@ let examplesArray = [
         "text1":"3-6",
         "text2":"Yes",
         "text3":"Yes",
-        "text4":"2",
+        "text4":"5",
     },
     {
         "name":"$149.99",
@@ -21,7 +21,7 @@ let examplesArray = [
         "text1":"6+",
         "text2":"Yes",
         "text3":"Yes",
-        "text4":"5",
+        "text4":"10",
     },
     {
         "name":"Free Quote",
@@ -29,7 +29,7 @@ let examplesArray = [
         "text1":"Custom",
         "text2":"Yes",
         "text3":"Yes",
-        "text4":"Custom",
+        "text4":"Unlimited",
     },
 ];
 
@@ -40,7 +40,7 @@ let containerDiv = document.getElementById("container");
 
     let webDiv = document.createElement("div");
     let alink =  document.createElement("h2");
-    let namep = document.createElement("h2");
+    let namep = document.createElement("h3");
     let BR = document.createElement("br");
     let text1 = document.createElement("p");
     let text2 = document.createElement("p");
@@ -49,7 +49,7 @@ let containerDiv = document.getElementById("container");
 
     
 
-    namep.textContent = Name.name;
+    namep.textContent = "Price: " + Name.name;
     alink.textContent = Name.price;
     text1.textContent = "Web pages: " + Name.text1;
     text2.textContent = "Contact Form: " + Name.text2;

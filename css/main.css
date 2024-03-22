@@ -82,6 +82,11 @@ font-family: "opensauce";
 src: url("/media/fonts/opensauce.ttf");
 }
 
+@font-face {
+  font-family: "exo";
+  src: url("/media/fonts/exo.otf");
+  }
+
 
 
 
@@ -135,6 +140,26 @@ src: url("/media/fonts/opensauce.ttf");
     font-family: 'opensauce', Arial;
   }
 
+  p {
+    font-family: 'exo', Arial;
+  }
+
+  li {
+    font-family: 'exo', Arial;
+  }
+
+  button {
+    font-family: 'exo', Arial;
+  }
+
+  option {
+    font-family: 'exo', Arial;
+  }
+
+  select {
+    font-family: 'exo', Arial;
+  }
+
   /* .navulmobileadded {
     display: flex;
     flex-direction: column;
@@ -173,6 +198,10 @@ src: url("/media/fonts/opensauce.ttf");
     animation: bg 1.5s forwards;
     animation-iteration-count: 1;
     background-size: 150%;
+  }
+
+  .tandc {
+    color: white;
   }
 
   #main1 {
@@ -465,6 +494,31 @@ src: url("/media/fonts/opensauce.ttf");
     margin: 2.5vh;
   }
 
+  .tandc {
+    color: white;
+  }
+
+  .euladiv {
+    margin: 0vh 10vh 0vh 10vh;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10vh;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .eulap {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .eulaul {
+    list-style-type: disc;
+  }
+
+  .eulali {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: disc;
+  }
+
   h1 {
     font-family: 'opensauce', Arial;
   }
@@ -475,6 +529,26 @@ src: url("/media/fonts/opensauce.ttf");
 
   h3 {
     font-family: 'opensauce', Arial;
+  }
+
+  p {
+    font-family: 'exo', Arial;
+  }
+
+  li {
+    font-family: 'exo', Arial;
+  }
+
+  button {
+    font-family: 'exo', Arial;
+  }
+
+  option {
+    font-family: 'exo', Arial;
+  }
+
+  select {
+    font-family: 'exo', Arial;
   }
 
   .navlidesktop:hover {
