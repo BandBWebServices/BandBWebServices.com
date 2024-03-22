@@ -85,16 +85,16 @@ function exit() {
 
 // day night mode
 
-let Body;
+//let Body;
 
-function nm() {
-    Body = document.querySelector("body");
+//function nm() {
+//    Body = document.querySelector("body");
 
-    Body.className = "nm";
-}
+//    Body.className = "nm";
+//}
 
-function dm() {
-    Body = document.querySelector("body");
+//function dm() {
+//    Body = document.querySelector("body");
 
-    Body.className = "dm";
-}
+//    Body.className = "dm";
+//}
