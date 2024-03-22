@@ -185,6 +185,11 @@ src: url("/media/fonts/opensauce.ttf");
     list-style-type: disc;
   }
 
+  .subeulali {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: disc;
+  }
+
   /* .navulmobileadded {
     display: flex;
     flex-direction: column;
