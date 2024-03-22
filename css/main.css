@@ -415,10 +415,16 @@ src: url("/media/fonts/opensauce.ttf");
   }
 
   .dnBtn {
+    width: 100px;
+    height: 100px;
     position: fixed;
     bottom: 0;
     right: 0;
+  }
+
+  .dn {
     width: 100px;
+    height: 100px;
   }
 
   .mainfooter {
