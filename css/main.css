@@ -177,12 +177,11 @@ src: url("/media/fonts/opensauce.ttf");
   }
 
   .eulaul {
-    list-style-type: disc;
+    
   }
 
   .eulali {
     font-family: Arial, Helvetica, sans-serif;
-    list-style-type: upper-roman;
   }
 
   .subeulali {
