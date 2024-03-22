@@ -80,3 +80,21 @@ function exit() {
     // navul.removeChild(contact);
     
 }
+
+
+
+// day night mode
+
+let Body;
+
+function nm() {
+    Body = document.querySelector("body");
+
+    Body.className = "nm";
+}
+
+function dm() {
+    Body = document.querySelector("body");
+
+    Body.className = "dm";
+}
