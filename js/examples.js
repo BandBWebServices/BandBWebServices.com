@@ -1,8 +1,8 @@
 let examplesArray = [
     {
         "name":"Retail Store",
-        "image":"/images/examples/webnotfound.jpg",
-        "link":"https://retail-example.netlify.app/",
+        "image":"/images/examples/retail.png",
+        "link":"https://pectolprints.netlify.app/",
     },
     {
         "name":"Restaurant",
@@ -10,9 +10,9 @@ let examplesArray = [
         "link":"/html/examples/restaurant.html",
     },
     {
-        "name":"Mechanic Shop",
+        "name":"Handy Man Shop",
         "image":"/images/examples/webnotfound.jpg",
-        "link":"/html/examples/mechanic.html",
+        "link":"/html/tier1.html",
     },
     {
         "name":"Car Dealership",
@@ -43,7 +43,7 @@ let containerDiv = document.getElementById("container");
     alink.setAttribute("target", "_blank");
     img.setAttribute("src", Name.image);
 
-    alink.className = "alink";
+    alink.className = "alink1";
     webDiv.className = "webDiv";
     namep.className = "namep";
     img.className = "examplesimages";
