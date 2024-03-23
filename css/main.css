@@ -426,6 +426,16 @@ src: url("/media/fonts/opensauce.ttf");
     background-color: #002333;
   }
 
+  .indexmain2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+/*     margin-bottom: 5vh; */
+    padding-bottom: 5vh;
+    background-color: #B4BEC9;
+  }
+
   .mainh3 {
     text-align: center;
     margin-top: 10vh;
