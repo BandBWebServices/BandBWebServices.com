@@ -799,6 +799,13 @@ src: url("/media/fonts/opensauce.ttf");
     justify-self: center;
   }
 
+  .indexmain2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+  }
+
   .mainindex {
     display: flex;
     justify-content: center;
@@ -830,6 +837,10 @@ src: url("/media/fonts/opensauce.ttf");
   }
 
   .mainindex1 {
+    margin-bottom: 2vh;
+  }
+
+  .mainindex2 {
     margin-bottom: 2vh;
   }
   
