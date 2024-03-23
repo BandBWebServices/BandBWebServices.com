@@ -403,7 +403,7 @@ src: url("/media/fonts/opensauce.ttf");
     display: flex;
     justify-content: center;
     justify-self: center;
-    margin-bottom: 13vh;
+    margin-bottom: 15vh;
    /* background-color: rgba(0, 0, 0, 0.5);*/
   }
 
